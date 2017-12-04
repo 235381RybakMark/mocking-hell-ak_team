@@ -1,3 +1,17 @@
+AllCops:
+Include:
+- '**/Rakefile'
+- '**/config.ru'
+Exclude:
+- 'db/**/*'
+- 'config/**/*'
+- 'script/**/*'
+- '**/Gemfile'
+Metrics/LineLength:
+Max: 80
+Style/StringLiterals:
+Enabled: true
+
 Naming/AccessorMethodName:
   Description: Check the naming of accessor methods for get_/set_.
   Enabled: false

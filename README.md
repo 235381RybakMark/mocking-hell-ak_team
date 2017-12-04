@@ -1,6 +1,21 @@
 # AK Team - e-BOK Siłownia
 | Autorzy | Język programowania | Travis Status |
 :--:|:--:|:--:
-| [![tadamczyk](https://avatars1.githubusercontent.com/u/16397764?s=40&v=4)](https://github.com/tadamczyk) [![olekkosma](https://avatars0.githubusercontent.com/u/16398511?s=40&v=4)](https://github.com/olekkosma) | Ruby 2.4.2 | [![Build Status](https://travis-ci.org/my-rspec/mocking-hell-ak_team.svg?branch=master)](https://travis-ci.org/my-rspec/mocking-hell-ak_team) |
+| [![tadamczyk](https://avatars1.githubusercontent.com/u/16397764?s=40&v=4)](https://github.com/tadamczyk) [![olekkosma](https://avatars0.githubusercontent.com/u/16398511?s=40&v=4)](https://github.com/olekkosma) | [![ruby](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/36px-Ruby_logo.svg.png)](https://pl.wikipedia.org/wiki/Ruby_(język_programowania)) | [![Build Status](https://travis-ci.org/my-rspec/mocking-hell-ak_team.svg?branch=master)](https://travis-ci.org/my-rspec/mocking-hell-ak_team) |
 
 ****
+
+Struktura plików:
+> [bin](bin)
+>>
+
+> [lib](lib)
+>>
+
+> [spec](spec)
+>>
+
+> [Gemfile](Gemfile)  
+> [Rakefile](Rakefile)  
+> [Travis](.travis.yml)  
+> [Rubocop](.rubocop.yml)
