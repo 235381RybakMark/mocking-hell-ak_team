@@ -1,19 +1,23 @@
 engines:
   rubocop:
     enabled: true
-  markdownlint:
+  brakeman:
+    enabled: false
+  eslint:
+    enabled: true
+  csslint:
     enabled: true
   duplication:
     enabled: false
     config:
       languages:
       - ruby
-
 ratings:
   paths:
+  - app/**
   - lib/**
   - "**.rb"
-
+  - "**.go"
 exclude_paths:
 - spec/**/*
 - "**/vendor/**/*"
