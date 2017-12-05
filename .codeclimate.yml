@@ -1,12 +1,8 @@
 engines:
   rubocop:
     enabled: true
-  brakeman:
-    enabled: false
-  eslint:
-    enabled: true
-  csslint:
-    enabled: true
+    config:
+      file: .rubocop.yml
   duplication:
     enabled: false
     config:
