@@ -1,5 +1,11 @@
+version: "2"
+
 plugins:
   rubocop:
+    enabled: true
+  eslint:
+    enabled: false
+  csslint:
     enabled: true
   duplication:
     enabled: false
