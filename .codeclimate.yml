@@ -15,4 +15,3 @@ plugins:
   
 exclude_patterns:
 - spec/**/*
-- "**/vendor/**/*"
