@@ -1,19 +1,19 @@
 engines:
   rubocop:
     enabled: true
-    config:
-      file: .rubocop.yml
   duplication:
     enabled: false
     config:
       languages:
       - ruby
+
 ratings:
   paths:
   - app/**
   - lib/**
   - "**.rb"
   - "**.go"
+  
 exclude_paths:
 - spec/**/*
 - "**/vendor/**/*"
