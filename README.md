@@ -1,11 +1,11 @@
 # AK Team - e-BOK Siłownia
-| Autorzy | Język programowania | Travis Status |
-:--:|:--:|:--:
-| [![tadamczyk](https://avatars1.githubusercontent.com/u/16397764?s=40&v=4)](https://github.com/tadamczyk) [![olekkosma](https://avatars0.githubusercontent.com/u/16398511?s=40&v=4)](https://github.com/olekkosma) | [![ruby](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/36px-Ruby_logo.svg.png)](https://pl.wikipedia.org/wiki/Ruby_(język_programowania)) | [![Build Status](https://travis-ci.org/my-rspec/mocking-hell-ak_team.svg?branch=master)](https://travis-ci.org/my-rspec/mocking-hell-ak_team) |
+| Autorzy | Język programowania | Travis Status | CC Coverage Status |
+:--:|:--:|:--:|:--:
+| [![tadamczyk](https://avatars1.githubusercontent.com/u/16397764?s=40&v=4)](https://github.com/tadamczyk) [![olekkosma](https://avatars0.githubusercontent.com/u/16398511?s=40&v=4)](https://github.com/olekkosma) | [![ruby](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/36px-Ruby_logo.svg.png)](https://pl.wikipedia.org/wiki/Ruby_(język_programowania)) | [![Build Status](https://travis-ci.org/my-rspec/mocking-hell-ak_team.svg?branch=master)](https://travis-ci.org/my-rspec/mocking-hell-ak_team) | [![Test Coverage](https://api.codeclimate.com/v1/badges/8302b279ffca574e79f1/test_coverage)](https://codeclimate.com/github/my-rspec/mocking-hell-ak_team/test_coverage) |
 
 ****
 
-Struktura plików:
+**Struktura plików:**
 > [bin](bin)
 >>
 
