@@ -1,4 +1,4 @@
-engines:
+plugins:
   rubocop:
     enabled: true
   duplication:
@@ -6,14 +6,7 @@ engines:
     config:
       languages:
       - ruby
-
-ratings:
-  paths:
-  - app/**
-  - lib/**
-  - "**.rb"
-  - "**.go"
   
-exclude_paths:
+exclude_patterns:
 - spec/**/*
 - "**/vendor/**/*"
