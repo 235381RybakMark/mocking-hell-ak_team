@@ -1,0 +1,19 @@
+engines:
+  rubocop:
+    enabled: true
+  markdownlint:
+    enabled: true
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - ruby
+
+ratings:
+  paths:
+  - lib/**
+  - "**.rb"
+
+exclude_paths:
+- spec/**/*
+- "**/vendor/**/*"

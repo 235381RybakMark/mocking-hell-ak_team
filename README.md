@@ -18,4 +18,5 @@ Struktura plików:
 > [Gemfile](Gemfile)  
 > [Rakefile](Rakefile)  
 > [Travis](.travis.yml)  
+> [CodeClimate](.codeclimate.yml)  
 > [Rubocop](.rubocop.yml)
