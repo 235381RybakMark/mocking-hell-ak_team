@@ -1,3 +1,4 @@
+require 'spec_helper'
 require 'email_address'
 
 describe '#email?' do
