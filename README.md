@@ -10,10 +10,12 @@
 >>
 
 > [lib](lib)
+>> [account](lib/account.rb)  
 >> [email](lib/email.rb)  
 >> [person](lib/person.rb)
 
 > [spec](spec)
+>> [account_spec](spec/account_spec.rb)  
 >> [spec_helper](spec/spec_helper.rb)  
 >> [email_spec](spec/email_spec.rb)  
 >> [person_spec](spec/person_spec.rb)
