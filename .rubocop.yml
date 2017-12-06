@@ -8,6 +8,9 @@ AllCops:
     - 'script/**/*'
     - '**/Gemfile'
 
+Documentation:
+  Enabled: false
+
 Metrics/LineLength:
   Max: 120
 
