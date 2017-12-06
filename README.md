@@ -10,11 +10,13 @@
 >>
 
 > [lib](lib)
->> [email](lib/email.rb)
+>> [email](lib/email.rb)  
+>> [person](lib/person.rb)
 
 > [spec](spec)
 >> [spec_helper](spec/spec_helper.rb)  
 >> [email_spec](spec/email_spec.rb)  
+>> [person_spec](spec/person_spec.rb)
 
 > [Gemfile](Gemfile)  
 > [Rakefile](Rakefile)  
