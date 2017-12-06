@@ -7,4 +7,5 @@ group :test do
   gem 'rspec-mocks', '~> 3.6.0'
   gem 'rake', '~> 12.0.0'
   gem 'simplecov', '~> 0.13.0', require: false
+  gem 'email_address', '~> 0.1.4'
 end
