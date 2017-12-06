@@ -28,4 +28,10 @@ RSpec.describe 'person.rb' do
       expect(@person.id).to eq(:id)
     end
   end
+
+  describe '#to_s' do
+    it 'method #to_s work?' do
+      expect { @person.to_s }.not_to raise_error
+    end
+  end
 end
