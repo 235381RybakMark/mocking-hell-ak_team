@@ -47,4 +47,14 @@ RSpec.describe 'account.rb' do
       expect(@tadamczyk.email).to eq(@tadamczyk_email)
     end
   end
+
+  describe '#to_s' do
+    it 'method #to_s work?' do
+      expect { @account.to_s }.not_to raise_error
+    end
+
+    it 'returns correctly string output from @tadamczyk object' do
+      expect(@tadamczyk.to_s).to eq('1. Tomasz Adamczyk - tadamczyk@sigma.ug.edu.pl')
+    end
+  end
 end
