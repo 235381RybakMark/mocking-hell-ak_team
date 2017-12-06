@@ -6,4 +6,8 @@ class Email
   def initialize(email_address)
     @email_address = EmailAddress.new(email_address)
   end
+
+  def to_s
+    email_address.original
+  end
 end
