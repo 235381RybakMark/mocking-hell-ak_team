@@ -10,4 +10,22 @@ RSpec.describe 'person.rb' do
       expect { @person }.not_to raise_error
     end
   end
+
+  describe '#firstname' do
+    it 'returns a correct firstname' do
+      expect(@person.firstname).to eq(:firstname)
+    end
+  end
+
+  describe '#lastname' do
+    it 'returns a correct lastname' do
+      expect(@person.lastname).to eq(:lastname)
+    end
+  end
+
+  describe '#id' do
+    it 'returns a correct id' do
+      expect(@person.id).to eq(:id)
+    end
+  end
 end
