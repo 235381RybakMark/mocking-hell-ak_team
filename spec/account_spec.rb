@@ -17,4 +17,34 @@ RSpec.describe 'account.rb' do
       expect(@account).to be_an_instance_of(Account)
     end
   end
+
+  describe '#id' do
+    it 'returns a correct id' do
+      expect(@account.id).to eq(:id)
+    end
+
+    it 'returns a correct id from @tadamczyk object' do
+      expect(@tadamczyk.id).to eq(1)
+    end
+  end
+
+  describe '#person' do
+    it 'returns a correct person' do
+      expect(@account.person).to eq(:person)
+    end
+
+    it 'returns a correct person from @tadamczyk object' do
+      expect(@tadamczyk.person).to eq(@tadamczyk_person)
+    end
+  end
+
+  describe '#email' do
+    it 'returns a correct email' do
+      expect(@account.email).to eq(:email)
+    end
+
+    it 'returns a correct email from @tadamczyk object' do
+      expect(@tadamczyk.email).to eq(@tadamczyk_email)
+    end
+  end
 end
