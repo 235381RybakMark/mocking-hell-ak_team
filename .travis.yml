@@ -14,7 +14,7 @@ before_script:
 
 script:
   - bundle install
-  - bundle exec rspec spec -fd
+  - bundle exec rake
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
