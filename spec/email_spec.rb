@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'email_address'
 
 describe '#email?' do
   it 'returns truth as a result of email address validation' do
