@@ -17,31 +17,31 @@ RSpec.describe 'person.rb' do
   end
 
   describe '#firstname' do
-    it 'returns a correct firstname' do
+    it 'returns a correct person firstname' do
       expect(@person.firstname).to eq(:firstname)
     end
 
-    it 'returns a correct firstname from @tomasz object' do
+    it 'returns a correct person firstname from @tomasz object' do
       expect(@tomasz.firstname).to eq('Tomasz')
     end
   end
 
   describe '#lastname' do
-    it 'returns a correct lastname' do
+    it 'returns a correct person lastname' do
       expect(@person.lastname).to eq(:lastname)
     end
 
-    it 'returns a correct lastname from @tomasz object' do
+    it 'returns a correct person lastname from @tomasz object' do
       expect(@tomasz.lastname).to eq('Adamczyk')
     end
   end
 
   describe '#id' do
-    it 'returns a correct id' do
+    it 'returns a correct person id' do
       expect(@person.id).to eq(:id)
     end
 
-    it 'returns a correct id from @tomasz object' do
+    it 'returns a correct person id from @tomasz object' do
       expect(@tomasz.id).to eq('94010112345')
     end
   end
@@ -51,7 +51,7 @@ RSpec.describe 'person.rb' do
       expect { @person.to_s }.not_to raise_error
     end
 
-    it 'returns correctly string output from @tomasz object' do
+    it 'returns correctly person string output from @tomasz object' do
       expect(@tomasz.to_s).to eq('Tomasz Adamczyk')
     end
   end
