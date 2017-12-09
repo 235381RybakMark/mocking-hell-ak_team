@@ -10,4 +10,8 @@ class Email
   def to_s
     email_address.original
   end
+
+  def valid?
+    email_address.valid?
+  end
 end

@@ -3,6 +3,7 @@ require 'spec_helper'
 RSpec.describe 'email.rb' do
   before :each do
     @email = Email.new('tadamczyk@sigma.ug.edu.pl')
+    @fake_email = EmailAddress.new('tadamczyk')
   end
 
   describe '#email?' do
@@ -15,13 +16,11 @@ RSpec.describe 'email.rb' do
     end
 
     it 'returns truth as a result of email address validation' do
-      email = EmailAddress.new('tadamczyk@sigma.ug.edu.pl')
-      expect(email.valid?).to eq true
+      expect(@email.valid?).to eq true
     end
 
     it 'returns false as a result of email address validation' do
-      email = EmailAddress.new('tadamczyk')
-      expect(email.valid?).to eq false
+      expect(@fake_email.valid?).to eq false
     end
   end
 end
