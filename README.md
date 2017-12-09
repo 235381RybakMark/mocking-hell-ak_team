@@ -24,4 +24,6 @@
 > [Rakefile](Rakefile)  
 > [Travis](.travis.yml)  
 > [CodeClimate](.codeclimate.yml)  
-> [Rubocop](.rubocop.yml)
+> [Rubocop](.rubocop.yml)  
+> [RSpec](.rspec)  
+> [README](README.md)
