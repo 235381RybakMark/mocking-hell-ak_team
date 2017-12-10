@@ -2,10 +2,12 @@ require 'spec_helper'
 
 RSpec.describe 'account.rb' do
   before :each do
-    @account = Account.new :id, :person, :email
-    @tadamczyk_person = Person.new('Tomasz', 'Adamczyk', '94010112345')
-    @tadamczyk_email = Email.new('tadamczyk@sigma.ug.edu.pl')
-    @tadamczyk = Account.new(1, @tadamczyk_person, @tadamczyk_email)
+    RSpec::Mocks.with_temporary_scope do
+      @account = Account.new :id, :person, :email
+      @tadamczyk_person = Person.new('Tomasz', 'Adamczyk', '94010112345')
+      @tadamczyk_email = Email.new('tadamczyk@sigma.ug.edu.pl')
+      @tadamczyk = Account.new(1, @tadamczyk_person, @tadamczyk_email)
+    end
   end
 
   describe '#new' do
