@@ -2,8 +2,10 @@ require 'spec_helper'
 
 RSpec.describe 'person.rb' do
   before :each do
-    @person = Person.new :firstname, :lastname, :id
-    @tomasz = Person.new('Tomasz', 'Adamczyk', '94010112345')
+    RSpec::Mocks.with_temporary_scope do
+      @person = Person.new :firstname, :lastname, :id
+      @tomasz = Person.new('Tomasz', 'Adamczyk', '94010112345')
+    end
   end
 
   describe '#new' do
